@@ -12,12 +12,15 @@ terraform {
 }
 
 variable "resource_group" {
+  default = "rgnew"
 }
 
 variable "region" {
+  default = "centralus"
 }
 
 variable "virtual_network" {
+  default = "myvnet"
 }
 
 #RG
