@@ -1,9 +1,5 @@
 provider "azurerm" {
   features {}
-  subscription_id = "3406779e-e0b0-485a-8c7d-7812c9d1456d"
-  tenant_id       = "e4e34038-ea1f-4882-b6e8-ccd776459ca0"
-  client_id       = "1cbf7079-fd50-44fb-a943-280e7b49c5e7"
-  client_secret   = "p-OCUQ2u2RrpXhglPq~bfSpUJq_jY0GWsl"
 }
 
 terraform {
@@ -11,7 +7,7 @@ terraform {
     resource_group_name  = "rg-mvm"
     storage_account_name = "stafortfstate"
     container_name       = "tfstatefile1"
-    key                  = "vm.terraform.tfstate"
+    key                  = "abc.terraform.tfstate"
   }
 }
 
